@@ -1,6 +1,8 @@
 const heapsort = (arr) => {
   /* Your code here */
-  // my heap code goes here
+  let myArr=[];
+  myArr.sort(arr);
+  return myArr;
 };
 
 class Heap {
